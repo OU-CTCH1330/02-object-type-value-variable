@@ -41,19 +41,19 @@ Input / output exmamples
 | -- | -- | -- |
 | age | 1010000 | P |
 
+### Primitive types
+
+`int`, `double`, `char`, `string`, `bool`
+
 ### Consequences of typing
 - not any value fits in any object type (including function parameters and returns)
 - the same operation behaves differently with different types, and alltogether fails when not applicable
-
-### Values
-
-Literals (kwnown while coding) vs runtime created.
 
 ### Variable
 
 - Definition
 - Initiation
 
-### Primitives
+### Values
 
-`int`, `double`, `char`, `string`, `bool`
+Literals (kwnown while coding) vs runtime created.

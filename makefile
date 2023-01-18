@@ -1,8 +1,9 @@
 all: class_roster
 
 class_roster: class_roster.cpp
+	mkdir -p bin
 	g++ -g --std=c++17 -c class_roster.cpp
-	g++ -g -o class_roster class_roster.o
+	g++ -g -o bin/class_roster class_roster.o
 	chmod 773 class_roster
 
 make test: all

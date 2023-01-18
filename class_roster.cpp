@@ -7,9 +7,9 @@ using namespace std;
 
 int main()
 {
-	string age;
-	age = 23;
-	cout << age << "\n";
+	int age;
+	cin >> age;
+	cout << age << "\n ";
 
 	/*
 	cout << "Please enter student data\n";

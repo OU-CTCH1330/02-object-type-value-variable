@@ -1,3 +1,4 @@
 *.dSYM/
-hello_world
 *.o
+bin/
+obj/
