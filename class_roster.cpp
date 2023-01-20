@@ -7,11 +7,15 @@ using namespace std;
 
 int main()
 {
+/*
 	int age;
-	cin >> age;
+	// cin >> age;
 	cout << age << "\n ";
+	cout << 0x1e5 << "\n";
+*/
 
-	/*
+	int class_size = 25;
+
 	cout << "Please enter student data\n";
 
 	string first_name;	
@@ -26,8 +30,10 @@ int main()
 	cout << "Please enter age:\n";
 	cin >> age;
 
-	cout << "Student data collected.\n";
-	cout << first_name <<  " " << last_name << " of age: " << age << "\n";
-*/
+	class_size++;
+	cout << "\nStudent data collected.\n";
+	cout << first_name +  " " + last_name + " of age: " << age << "\n";
+	cout << "New class size is " << class_size << "\n";
+
 	return 0;
 }

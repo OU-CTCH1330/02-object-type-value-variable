@@ -51,15 +51,18 @@ We'll see complex, user defined types.
 - not any value fits in any object type (including function parameters and returns)
 - the same operation behaves differently with different types, and alltogether fails when not applicable
 
-### Variable
-
-- Definition
-- Initiation
-
-Naming, can't use [keywords](https://en.cppreference.com/w/cpp/keyword).
-
 ### Values
 
 Literals (supplied from source code): `"Giorgi"`, `12`, `3.14`, `true`
 <br />vs 
 <br />supplied at runtime from various sources: user input, calculated from other existing values, web services, external libraries, etc.
+
+### Variable
+
+- Definition
+- Initiation
+
+Naming rules, can't use [keywords](https://en.cppreference.com/w/cpp/keyword).
+<br />Naming conventions, [Google C++ style guide](https://google.github.io/styleguide/cppguide.html).
+
+## Operations and operators
