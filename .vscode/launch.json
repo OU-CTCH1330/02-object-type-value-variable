@@ -8,7 +8,7 @@
             "name": "Launch debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/class_roster",
+            "program": "${workspaceFolder}/bin/class_roster",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
