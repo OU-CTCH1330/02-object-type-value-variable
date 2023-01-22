@@ -30,19 +30,31 @@ int main()
 	// notice syntax of collecting user input, compare to supplying user output
 	cin >> first_name;
 
-	// please collect new student's lat name is variable last_name
+
 	cout << "Please enter last name:\n";
+
+	// please collect new student's lat name is variable last_name
+	/*
+		(1) pls remove this block comment and enter required code instead
+	*/
 	string last_name;
 	cin >> last_name;
-	
+
+	cout << "Please enter age:\n";	
 	// please collect new student's age in variable age
-	// notice cin >> is equally succesfull collecting integer or string. such behavior is called polymorphysm.	int age;
-	cout << "Please enter age:\n";
+	/*
+		(2) pls remove this block comment and enter required code instead
+	*/	
 	int age;
 	cin >> age;
 
+	// notice cin >> is equally succesfull collecting integer or string. such behavior is called polymorphysm.	int age;	
+
 	// increment class_size by one to factor new addition. 
 	// consider using unary operator ++
+	/*
+		(3) pls remove this block comment and enter required code instead
+	*/
 	class_size++;
 
 	// giving end user interactive, detailed informaiton is at heart of good UA/UX
