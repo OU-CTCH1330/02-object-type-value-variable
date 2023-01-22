@@ -4,12 +4,40 @@ send_user "Building target program\n"
 exec make clean
 exec make all
 send "Starting target program\n" 
-spawn ./hello_world
-set timeout 1
+spawn bin/class_roster
+set timeout 5
 expect {
-    "hello world\r" { send_user $passExit; exit 0; }
+    "first" { send_user "entering first name"; }
     eof { send_user $failedExit; exit 1; }
     timeout { send_user $timeoutExit; exit 1;}
 }
+send "fname\r"
+
+expect {
+    "last" { send_user "entering last name"; }
+    eof { send_user $failedExit; exit 1; }
+    timeout { send_user $timeoutExit; exit 1;}
+}
+send "lname\r"
+
+expect {
+    "age" { send_user "entering age"; }
+    eof { send_user $failedExit; exit 1; }
+    timeout { send_user $timeoutExit; exit 1;}
+}
+send "26\r"
+
+expect { 
+    "fname lname of age: 26\r" 
+    { 
+        send_user "\ncorrect output detected\n";
+        send_user $passExit;
+        exit 0;
+    }
+    eof { send_user $failedExit; exit 1; }
+    timeout { send_user $timeoutExit; exit 1;}
+}
+
+
 send_user $unexpectedExit
 exit 1;

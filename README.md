@@ -1,36 +1,34 @@
 # 02_Variable, Object, Type, value
 
-Starter repo for CTCH 1330 assignment: `02-object-type-value-variable-ghId` generated when accepting accsignment from BlackBoard. 
+Starter repo for this assignment: `02-object-type-value-variable-ghId` generated when accepting accsignment from BlackBoard link. 
 
 # Assignment spec
+Present steps are companion of a more detailed video instructions for this assignment, available in BlackBoard folder for this unit. 
 
-Compile executable `bin/class_roster`. ???When executed, this program should produce exact console output
-> hello world
+This code is embrio of learning management system, think of you starting your product similar to our university *BlackBoard*. Here we deliver a feature of classroom enrollment management. 
 
-Don't forget to push your code back to GitHub.
+
+
+When executed, this program should produce  console interaction as below
+> Please enter student data<br />Please enter first name:<br />giorgi<br />Please enter last name:<br />shonia<br />Please enter age:<br />46<br /><br />Student data collected.<br />giorgi shonia of age: 46<br />New class size is 26<br />New class average is 23.4038<br />
+
+Obviousely output should depend on input, it should not be hardcoded.
 
 ## Steps
 
-Below steps are just outlines of a more detailed video guide. If help needed, reach out early on.
-- Open repo in CodeSpace (or equivalent local environment)
-- (_optional_) Open terminal in VS Code, type
-<br />``` g++ hello_world.cpp -o hello_world ```
-<br />this should create file `hello_world` which can be executed from terminal with `./hello_world`
-- Run test task (Menu > Terminal > RunTask): `Test with make and Expect`. This should report "<span style="color:red">Program failed tests</span>".
-<br />_Alternative_: instead of relying on VS Code you can run the same build+test workflow from terminal with <br />```make test```.
-- Make necessary edits in `hello_world.cpp`
-- Run test task again, make sure it reports "<span style="color:green">Program passed tests</span>".
-- Click on source control, stage and commit required changes, sync with GitHub
-- Check in Github actions, make sure you passed test there too.
+- Please accept `02` assignment from *BlackBoard* link as usual. Visit generated repo `02-object-type-value-variable-yourId` on GitHub. Open Codespace.<br />Please try not to spam Codespaces. If you've created one for this repo before, it's faster and frugal to restart it from [https://github.com/codespaces](https://github.com/codespaces). Each repo expects dedicated Codespace, eg Codespace from assignment `01` is not meant to be reused for `02`.
+- Please go over included source `class_roster.cpp`. It has suggestions for expected changes and completion. Please make sure program logic and I/O complies with above spec.
+- Compile executable `bin/class_roster`. This can be done in number of ways, including running `Build Task` from gui (*Menu > Terminal > RunBuildTask*). Executable will be delivered in `bin` folder. You can execute this program with
+> root@786f2f9df995:/workspaces/02-object-type-value-variable# <span style="color:#0099ff">bin/class_roster</span>
+- Once satisfied with correctness of program run `Test` task (*Menu > Terminal > RunTask > TestWithMake*), make sure you pass.
+- Stage, commit and push changes. Make sure your code passes in GitHub actions.
+- If something goes off, please reach out early on, do NOT struggle. PR associated with this repo is a good place for QA.
 
 # Instructional demo 
 
+We'll go over these notes in unit lecture video, available in BlackBoard folder for this unit. 
+
 ## Object, Type, Value and Variable
-
-Sample app: classroom roster entry
-
-Input / output exmamples
-
 
 |  | int (4 bytes)  |  |
 | -- | -- | -- |

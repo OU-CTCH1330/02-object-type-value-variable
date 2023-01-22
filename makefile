@@ -7,14 +7,14 @@ EXE := bin/class_roster
 .PHONY: all clean pre-build ind-warning
 
 all: pre-build $(EXE)
-	chmod 773 $(EXE)
+#	chmod 773 $(EXE)
 
 pre-build:
-	$(warning  (Conditionally) creating object and executable folders)
+#	$(warning  (Conditionally) creating object and executable folders)
 	mkdir -p bin obj
 
 $(EXE): $(OBJS)
-	$(warning  Linking object files)
+#	$(warning  Linking object files)
 	g++ -g $(OBJS) -o $(EXE)
 
 # grab all, use SRCS and OBJS for more control

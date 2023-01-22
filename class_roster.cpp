@@ -65,7 +65,7 @@ int main()
 	// in coding (specifically in C++) such situation means that on left class_age enters with prior value and result of calculation
 	// on left is assigned to class_age on the right, so that going forwar this variable will resolve to a new value. 
 	average_age = (class_size-1)*average_age / class_size + age / class_size;
-	cout << "New class average is " << average_age << "\n";
+	cout << "New class average age is " << average_age << "\n";
 
 	return 0;
 }
