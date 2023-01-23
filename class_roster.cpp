@@ -7,13 +7,6 @@ using namespace std;
 
 int main()
 {
-/*
-	int age;
-	// cin >> age;
-	cout << age << "\n ";
-	cout << 0x1e5 << "\n";
-*/
-
 	int class_size;
 	// at this point class_size variable is accessible for program to use. but is it clear what value it will be?
 	// a good practice expects all variables to be immediately initiated	
@@ -33,7 +26,7 @@ int main()
 
 	cout << "Please enter last name:\n";
 
-	// please collect new student's lat name is variable last_name
+	// please collect new student's last name is variable last_name
 	/*
 		(1) pls remove this block comment and enter required code instead
 	*/
