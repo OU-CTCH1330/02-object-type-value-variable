@@ -4,5 +4,6 @@
     ],
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "makefile.configureOnOpen": true
 }
